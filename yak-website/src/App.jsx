@@ -4,7 +4,7 @@ import { Cricket } from './August'
 const App = () => {
   return (
     <>
-      My Name is Ajay
+      My Name is Kumar
       <Cricket />
     </>
   )
