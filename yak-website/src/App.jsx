@@ -9,7 +9,7 @@ import { Hello, Array, FunOne, FunTwo } from './Functions';
 // city = "Begumpet";
 
 const App = () => {
-  const [city, setCity] = useState(0)
+  const [city, setCity] = useState("Hyderabad")
   const [firstName, setFirstName] = useState('Ajay');
   const [lastName, setLastNae] = useState('Kumar');
   const [age, setAge] = useState(32);
@@ -18,6 +18,7 @@ const App = () => {
     setFirstName("Vijay")
     setLastNae("Kiran")
     setAge(21)
+    setCity("Secunderabad")
   }
     return (
     <div className="text-area">
@@ -35,4 +36,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;

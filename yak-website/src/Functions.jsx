@@ -1,7 +1,22 @@
+import { useState } from 'react';
+
 const New = () => {
+    const [city, setCity] = useState("Hyderabad");
+    const [name, setName] = useState("Kumar");
+    const [degree, setDegree] = useState("Bcom");
+    const [year, setYear] = useState(2012);
+
+    const myInfo = () => {
+        setCity("Markapur")
+        setName("Ajay")
+        setDegree("Bcom Computers")
+        setYear("2014")
+    } 
+
     return (
         <div>
-            Hello Man
+            This is {name} from {city} and i completed my graduation from {degree} in the year {year}
+            <button onClick={myInfo}>Update Details</button>
         </div>
     )
 }
