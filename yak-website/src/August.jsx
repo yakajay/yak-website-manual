@@ -1,9 +1,10 @@
 import React from 'react'
 
-export const Cricket = () => {
+
+export const Cricket = ({mango}) => {
     return (
         <div>
-            Dhone is India Captian
+            Dhone is India Captian and he is playing in {mango}
         </div>
     )
 }
