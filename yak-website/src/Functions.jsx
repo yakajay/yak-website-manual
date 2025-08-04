@@ -47,9 +47,9 @@ export function FunOne () {
     )
 }
 
-export const FunTwo = () => {
+export const FunTwo = ({ city }) => {
     return (
-    <div>Hello Buddy!, How are you today!</div>
+    <div>Hello Buddy!, How are you today!, {city}</div>
     )
 }
 
