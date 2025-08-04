@@ -2,6 +2,8 @@ import React from 'react'
 import { Cricket } from './August'
 import "./App.css"
 import {useState} from 'react';
+import New from './Functions';
+import { Hello, Array, FunOne, FunTwo } from './Functions';
 
 // let city = "Hyderabad";
 // city = "Begumpet";
@@ -24,6 +26,11 @@ const App = () => {
       <h2>{age}</h2>
       <button onClick={dataHandler}>Change Details</button>
       <Cricket mango={city}/>
+      <New/>
+      <Hello/>
+      <Array/>
+      <FunOne/>
+      <FunTwo/>
     </div>
   )
 }
