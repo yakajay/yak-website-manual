@@ -4,6 +4,7 @@ import "./App.css"
 import {useState} from 'react';
 import New from './Functions';
 import { Hello, Array, FunOne, FunTwo } from './Functions';
+import ConditionalOutput from './ConditionalOutput';
 
 // let city = "Hyderabad";
 // city = "Begumpet";
@@ -22,7 +23,8 @@ const App = () => {
   }
     return (
     <div className="text-area">
-      My Name is Kumar from {firstName}
+      /* The code you provided is a React functional component named `App`. */
+      {/* My Name is Kumar from {firstName}
       <h1>{lastName}</h1>
       <h2>{age}</h2>
       <button onClick={dataHandler}>Change Details</button>
@@ -31,7 +33,8 @@ const App = () => {
       <Hello/>
       <Array/>
       <FunOne/>
-      <FunTwo/>
+      <FunTwo/> */}
+      <ConditionalOutput/>
     </div>
   )
 }
