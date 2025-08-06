@@ -5,6 +5,7 @@ import {useState} from 'react';
 import New from './Functions';
 import { Hello, Array, FunOne, FunTwo } from './Functions';
 import ConditionalOutput from './ConditionalOutput';
+import CondOut from './CondOut';
 
 // let city = "Hyderabad";
 // city = "Begumpet";
@@ -23,7 +24,7 @@ const App = () => {
   }
     return (
     <div className="text-area">
-      /* The code you provided is a React functional component named `App`. */
+      {/* /* The code you provided is a React functional component named `App`. */ }
       {/* My Name is Kumar from {firstName}
       <h1>{lastName}</h1>
       <h2>{age}</h2>
@@ -34,7 +35,8 @@ const App = () => {
       <Array/>
       <FunOne/>
       <FunTwo/> */}
-      <ConditionalOutput/>
+      {/* <ConditionalOutput/> */}
+      <CondOut />
     </div>
   )
 }
