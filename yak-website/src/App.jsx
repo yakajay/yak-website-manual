@@ -7,6 +7,7 @@ import { Hello, Array, FunOne, FunTwo } from './Functions';
 import ConditionalOutput from './ConditionalOutput';
 import CondOut from './CondOut';
 import FormConecpt from './FormsConecpt';
+import ApiService from './ApiService'; // to fetch the data from this componenet.
 
 // let city = "Hyderabad";
 // city = "Begumpet";
@@ -38,7 +39,8 @@ const App = () => {
       <FunTwo/> */}
       {/* <ConditionalOutput/> */}
       {/* <CondOut /> */}
-      <FormConecpt/>
+      {/* <FormConecpt/> */}
+      <ApiService/>
     </div>
   )
 }
