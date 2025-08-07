@@ -6,6 +6,7 @@ import New from './Functions';
 import { Hello, Array, FunOne, FunTwo } from './Functions';
 import ConditionalOutput from './ConditionalOutput';
 import CondOut from './CondOut';
+import FormConecpt from './FormsConecpt';
 
 // let city = "Hyderabad";
 // city = "Begumpet";
@@ -36,7 +37,8 @@ const App = () => {
       <FunOne/>
       <FunTwo/> */}
       {/* <ConditionalOutput/> */}
-      <CondOut />
+      {/* <CondOut /> */}
+      <FormConecpt/>
     </div>
   )
 }
