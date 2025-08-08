@@ -1,13 +1,11 @@
 import React from 'react'
-import { Cricket } from './August'
 import "./App.css"
 import {useState} from 'react';
-import New from './Functions';
-import { Hello, Array, FunOne, FunTwo } from './Functions';
-import ConditionalOutput from './ConditionalOutput';
-import CondOut from './CondOut';
-import FormConecpt from './FormsConecpt';
+import { Routes, Route } from 'react-router-dom';
 import ApiService from './ApiService'; // to fetch the data from this componenet.
+import August from './August';
+import NavBAr from './NavBar';
+import July from './components/July';
 
 // let city = "Hyderabad";
 // city = "Begumpet";
@@ -25,23 +23,14 @@ const App = () => {
     setCity("Secunderabad")
   }
     return (
-    <div className="text-area">
-      {/* /* The code you provided is a React functional component named `App`. */ }
-      {/* My Name is Kumar from {firstName}
-      <h1>{lastName}</h1>
-      <h2>{age}</h2>
-      <button onClick={dataHandler}>Change Details</button>
-      <Cricket mango={city}/>
-      <New/>
-      <Hello/>
-      <Array/>
-      <FunOne/>
-      <FunTwo/> */}
-      {/* <ConditionalOutput/> */}
-      {/* <CondOut /> */}
-      {/* <FormConecpt/> */}
-      <ApiService/>
-    </div>
+      <>
+      <NavBAr/>
+      <Routes>
+        <Route path='/Friday' element={<ApiService/>}/>
+        <Route path='/August' element={<August/>}/>
+        <Route path='/July' element={<July/>}/>
+      </Routes>
+      </>
   )
 }
 
