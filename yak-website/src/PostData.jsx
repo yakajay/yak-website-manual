@@ -50,30 +50,10 @@ const PostData = () => {
   return (
     <div>
       <form onSubmit={empHandler}>
-        <input
-          type="text"
-          placeholder="Name"
-          value={empName}
-          onChange={(e) => setEmpName(e.target.value)}
-        /><br/>
-        <input
-          type="email"
-          placeholder="Email"
-          value={empEmail}
-          onChange={(e) => setEmpEmail(e.target.value)}
-        /><br/>
-        <input
-          type="number"
-          placeholder="Phone"
-          value={empPhone}
-          onChange={(e) => setEmpPhone(e.target.value)}
-        /><br/>
-        <input
-          type="text"
-          placeholder="City"
-          value={empCity}
-          onChange={(e) => setEmpCity(e.target.value)}
-        /><br/>
+        <input type="text" placeholder="Name" value={empName} onChange={(e) => setEmpName(e.target.value)}/><br/>
+        <input type="email" placeholder="Email" value={empEmail} onChange={(e) => setEmpEmail(e.target.value)}/><br/>
+        <input type="number" placeholder="Phone" value={empPhone} onChange={(e) => setEmpPhone(e.target.value)}/><br/>
+        <input type="text" placeholder="City" value={empCity} onChange={(e) => setEmpCity(e.target.value)}/><br/>
         <button type="submit">Submit</button>
       </form>
 
